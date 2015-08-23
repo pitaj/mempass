@@ -51,8 +51,8 @@ var mempass = {
   },
   defaults: {
     words: 3,
-    minLength: 4,
-    maxLength: 8,
+    minLength: 0,
+    maxLength: 0,
     separator: "-",
     beginningNumbers: 0,
     endingNumbers: 0,
