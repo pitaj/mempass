@@ -1,0 +1,33 @@
+{
+  "name": "mempass",
+  "version": "1.0.0",
+  "description": "A configurable memorable password generator",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pitaj/mempass"
+  },
+  "keywords": [
+    "memorable",
+    "password",
+    "generator",
+    "mempass",
+    "mem",
+    "pass"
+  ],
+  "author": "PitaJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitaj/mempass/issues"
+  },
+  "homepage": "https://github.com/pitaj/mempass",
+  "dependencies": {
+    "random-word": "^1.0.2"
+  },
+  "bin": {
+    "mempass": "bin/mempass.js"
+  }
+}
